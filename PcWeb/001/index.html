@@ -1,12 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" 
+        content="width=device-width, initial-scale=1.0">
+        <script src="./script/app.js" defer></script>
+    <title>PCW | Aula 03</title>
 </head>
 <body>
-    <h1>Pc Web</h1>
+    <h1>PC Web - Manipulação do DOM</h1>
+
+    <h3>Atividade DoTo List</h3>
+    <ol>
+        <li>Adicionar itens</li>
+        <li>Validar entrada de dados</li>
+        <li>Adicionar opção de remoção</li>
+        <li>Editar item</li>
+        <li>Consultar item</li>
+    </ol>
+
+    <fieldset>
+        <legend>Todo List</legend>
+        <input type="text" 
+            id="item"
+            placeholder="Entre com uma tarefa">
+        <button id="addItem">Adicionar</button>
+
+        <ul id="todoList"></ul>
+    </fieldset>
 </body>
 </html>
